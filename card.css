@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
   
@@ -97,7 +98,7 @@ body {
     transform: rotateY(180deg);
     position: absolute;
     bottom: 12px;
-    right: 15%;
+    padding: 0 5px;
   }
 
   .our-team .social {
@@ -124,3 +125,15 @@ body {
     color: #1369ce;
   }
   
+  .card-text{
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+  }
+  .card-text:first-child, .card-text span{
+    font-weight: bold;
+  }
+
+  .dropdown{
+    margin: 50px;
+  }
