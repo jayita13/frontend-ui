@@ -85,7 +85,7 @@ body {
     transform-style: preserve-3d;
   } 
   
-  .our-team.flipped .flip-card-inner {   
+  .our-team.flipped .flip-card-inner, .picture {   
     transform: rotateY(180deg);
   }
   
