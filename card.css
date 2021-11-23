@@ -139,9 +139,6 @@ body {
   .dropdown{
     margin: 50px;
   }
-  .select-list option:first-child{ 
-    display: none;
-  }
   
   .datepicker {
     font-size: 0.875em;
