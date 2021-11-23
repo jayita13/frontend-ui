@@ -1,7 +1,7 @@
 $(document).ready(function () {
   // card-flipping
   $(".flip-card").on("click", function () {
-    $('.our-team').toggleClass("flipped");
+    $(this).parent().parent().parent().toggleClass('flipped');
   });
 
   // date-picker
