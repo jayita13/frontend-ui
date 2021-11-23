@@ -16,13 +16,17 @@ $(document).ready(function () {
   // filter content acc to dropdown list
   $('.select-list').on('change', function () {
     var text = $(this).find('option').filter(':selected').text();
-    $('.our-team').each(function () {
-      if ($(this).text().indexOf(text) != -1) {
-        $(this).show();
-      } else {
-        $(this).hide();
-      }
-    })
+    if (text == "Show All") {
+      $(".our-team").show();
+    } else {
+      $(".our-team").each(function () {
+        if ($(this).text().indexOf(text) != -1) {
+          $(this).show();
+        } else {
+          $(this).hide();
+        }
+      });
+    }
   });   
 
 });
