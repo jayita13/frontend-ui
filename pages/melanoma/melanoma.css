@@ -9,6 +9,9 @@ input {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: max-content;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 1.25rem;
 }
 
 h1{
@@ -17,4 +20,10 @@ h1{
 
 body{
     background: #dee2e6 !important;
+}
+
+.custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
