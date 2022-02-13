@@ -1,11 +1,39 @@
-/* .container{
+.form-group{
     display: flex;
-} */
+    justify-content: space-between;
+}
+form{
+    margin-top: 50px;
+    font-size: 20px !important;
+}
 .image-fluid{
     height: 500px;
     width: 35%;
     background: url('https://media2.giphy.com/media/zMQve1zBszJ3Uqsbi2/giphy.gif') no-repeat left;
 }
-/* span{
-    display: block;
-} */
+.mb-3{
+    display: grid;
+}
+.btn-success{
+    width: 30%;
+    margin-left: 36%;
+    border-radius: 20px;
+    border: none;
+}
+label::after{
+    content: "*";
+    display: inline;
+    color: rgb(248, 10, 10);    
+}
+.text-body{
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    padding: 5px;
+}
+
+.text-body::placeholder{
+    color: darkgrey !important;
+}

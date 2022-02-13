@@ -14,39 +14,51 @@
     <div class="col-lg-6 image-fluid"></div>
     <div class="col-lg-6 main">
         <h1>ARE YOU DIABETIC?</h1>
-        <form class="card border-succes form-control">
-            <div class="mb-3">
-              <label for="pregnancies" class="form-label">Pregnancies</label>
-              <input class="text-body" id="preg" name="pregnant" type="number" required>
+        <form>
+            <div class="form-group">
+                <div class="mb-3">
+                    <label for="pregnancies" class="form-label">Pregnancies</label>
+                    <input class="text-body" id="preg" name="pregnant" placeholder="enter no. of times" type="number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="glucose" class="form-label">Glucose</label>
+                    <input class="text-body" id="glucose" placeholder="Plasma glucose conc" name="glucose" type="number" required>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="glucose" class="form-label">Glucose</label>
-                <input class="text-body" id="glucose" name="glucose" type="number" required>
+            
+            <div class="form-group">
+                <div class="mb-3">
+                    <label for="bp" class="form-label">Blood Pressure</label>
+                    <input class="text-body" id="bp" name="bp" placeholder="Diastolic blood pressure" type="number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="st" class="form-label">Skin Thickness</label>
+                    <input class="text-body" id="st" name="st" placeholder="Triceps skin fold thickness" type="number" required>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="bp" class="form-label">Blood Pressure</label>
-                <input class="text-body" id="bp" name="bp" type="number" required>
+           
+            <div class="form-group">
+                <div class="mb-3">
+                    <label for="insulin" class="form-label">Insulin</label>
+                    <input class="text-body" id="ins" placeholder="2-Hour serum insulin" name="ins" type="number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="bmi" class="form-label">BMI</label>
+                    <input class="text-body" id="bmi" name="bmi" placeholder="Body mass index" type="number" required>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="st" class="form-label">Skin Thickness</label>
-                <input class="text-body" id="st" name="st" type="number" required>
+            
+            <div class="form-group">
+                <div class="mb-3">
+                    <label for="dpf" class="form-label">Diabetes Pedigree Function</label>
+                    <input class="text-body" id="dpf" name="dpf" placeholder="Diabetes pedigree function" type="number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="age" class="form-label">Age</label>
+                    <input class="text-body" id="age" name="age" placeholder="age in years" type="number" required>
+                </div>
             </div>
-            <div class="mb-3">
-                <label for="insulin" class="form-label">Insulin</label>
-                <input class="text-body" id="ins" name="ins" type="number" required>
-            </div>
-            <div class="mb-3">
-                <label for="bmi" class="form-label">BMI</label>
-                <input class="text-body" id="bmi" name="bmi" type="number" required>
-            </div>
-            <div class="mb-3">
-                <label for="dpf" class="form-label">Diabetes Pedigree Function</label>
-                <input class="text-body" id="dpf" name="dpf" type="number" required>
-            </div>
-            <div class="mb-3">
-                <label for="age" class="form-label">Age</label>
-                <input class="text-body" id="age" name="age" type="number" required>
-            </div>
+
             <input class="btn-success bold" id="submit" type="submit" value="Submit">
         </form>
     </div>  
