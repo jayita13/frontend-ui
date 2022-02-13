@@ -19,7 +19,9 @@ h1{
 }
 
 body{
-    background: #dee2e6 !important;
+    /* background: #dee2e6 !important; */
+    background: url("https://previews.123rf.com/images/orathai007/orathai0071805/orathai007180500090/102157351-hand-drawn-of-biology-science-theory-doodle-set-and-tool-model-icon-vector-illustration-design-.jpg") no-repeat;
+    background-size: cover;
 }
 
 .custom{
